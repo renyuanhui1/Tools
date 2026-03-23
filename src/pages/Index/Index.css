@@ -1,0 +1,48 @@
+.container { min-height: 100vh; background: #f0f7f0; padding-bottom: 40px; }
+
+.header {
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  padding: 40px 24px 24px;
+  color: #fff;
+}
+.date { display: block; font-size: 22px; font-weight: bold; }
+.subtitle { display: block; font-size: 14px; margin-top: 4px; opacity: 0.85; }
+
+.empty {
+  display: flex; flex-direction: column; align-items: center; padding: 80px 24px 0;
+}
+.empty-icon { font-size: 60px; }
+.empty-text { font-size: 16px; color: #999; margin: 16px 0 24px; }
+
+.btn-add {
+  background: #4CAF50; color: #fff; border: none; border-radius: 50px;
+  padding: 12px 40px; font-size: 16px; cursor: pointer;
+}
+
+.list { padding: 16px; position: relative; }
+
+.habit-card {
+  background: #fff; border-radius: 16px; padding: 16px;
+  margin-bottom: 12px; display: flex; align-items: center;
+  justify-content: space-between; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 2px solid transparent;
+}
+.habit-card.checked { background: #f1faf1; border-color: #a5d6a7; }
+
+.habit-left { display: flex; align-items: center; flex: 1; cursor: pointer; }
+.habit-icon { font-size: 36px; margin-right: 12px; }
+.habit-name { display: block; font-size: 17px; font-weight: 600; color: #333; }
+.habit-streak { display: block; font-size: 13px; color: #ff7043; margin-top: 2px; }
+
+.checkin-btn {
+  background: #4CAF50; color: #fff; border: none; border-radius: 50px;
+  padding: 10px 20px; font-size: 15px; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.checkin-btn.done { background: #e8f5e9; color: #4CAF50; }
+
+.btn-add-float {
+  position: fixed; bottom: 80px; right: 24px;
+  width: 56px; height: 56px; border-radius: 50%;
+  background: #4CAF50; color: #fff; border: none;
+  font-size: 28px; cursor: pointer; box-shadow: 0 4px 16px rgba(76,175,80,0.4);
+}
